@@ -28,4 +28,4 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 
 # install cloudflared
 brew install cloudflared
-cloudflared tunnel --url http://localhost:5900
+cloudflared tunnel --url http://localhost:5900 &
